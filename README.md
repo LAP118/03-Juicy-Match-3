@@ -1,31 +1,25 @@
-```
 # 03-Match-3
 Made on 2/28/22 for BL-MSCH-C220 at Indiana University .
 
 A Match-3 game made juicier with the addition of different elements.
 
 ## Implementation
-Which features you included
+1. Changed Images
+2. Changed Typeface and Font
+3. Camera shakes when pieces are matched
+4. Different pieces have different sound effects when matched
+5. New backgrounds for the menu, win, and lose screens
+6. Music
+7. Pieces get highlighted when you select them
+8. Particles radiate off the selected pieces
+
 
 ## References
 Based on a Match-3 project created by [Mister Taft Creates](https://github.com/mistertaftcreates/Godot_match_3) (with an accompanying [YouTube series](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2))
+All of the assets are things I made or images of people that I know that I took.
 
 ## Future Development
 None
 
 ## Created by
 Luke Pollin
-```
-
-The grading criteria will be as follows:
-
- - [1 point] Assignment turned in on time
- - [1] Repository contains a descriptive README.md
- - [1] No (script) syntax errors
- - [1] No other runtime errors
- - [2] Contains at least two levels (with different game-play mechanics)
- - [2] Score is tracked, some kind of end-game condition
- - [1] Main menu
- - [1] End-game screen
- - [8] Features to make the game more "juicy"
- - [2] The overall juiciness
