@@ -4,7 +4,7 @@ Made on 2/28/22 for BL-MSCH-C220 at Indiana University .
 A Match-3 game made juicier with the addition of different elements.
 
 ## Implementation
-1. Changed Images (that I took my self of people I know)
+1. Changed Images (that I took myself of people I know)
 2. Changed Typeface and Font
 3. Camera shakes when pieces are matched
 4. Different pieces have different sound effects when matched (that I recorded myself)
