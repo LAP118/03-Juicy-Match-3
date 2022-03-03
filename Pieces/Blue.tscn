@@ -1,7 +1,16 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Pieces/Piece.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Ras.png" type="Texture" id=2]
 
-[node name="Blue" instance=ExtResource( 1 )]
-modulate = Color( 0, 0, 1, 1 )
+[node name="Ras" instance=ExtResource( 1 )]
+modulate = Color( 0.25098, 0.647059, 1, 1 )
 piece = "Blue"
+
+[node name="Sprite" parent="." index="0"]
+scale = Vector2( 0.79, 0.727 )
+texture = ExtResource( 2 )
+
+[node name="Select" parent="." index="2"]
+scale = Vector2( 0.79, 0.727 )
+texture = ExtResource( 2 )

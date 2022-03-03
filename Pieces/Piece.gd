@@ -31,14 +31,14 @@ func _physics_process(_delta):
 			z_index = max_z
 			target_position = position
 		global_position = constrain(Vector2(get_global_mouse_position().x, get_global_mouse_position().y))
-		if modulate != highlight:
-			modulate = highlight
+		$Selected.emitting = true
+		$Select.show()
 	else:
 		if z_index != default_z:
 			z_index = default_z
 			position = target_position		
-		if modulate != default_modulate:
-			modulate = default_modulate
+		$Selected.emitting = false
+		$Select.hide()
 		
 
 func move(change):
@@ -64,7 +64,12 @@ func make_color_bomb():
 func die():
 	dying = true
 	Global.update_goals(piece)
-
+	if piece == "Red":
+		get_node("/root/Game/Luke").playing = true
+	if piece == "Blue":
+		get_node("/root/Game/Ras").playing = true
+	if piece == "Green":
+		get_node("/root/Game/Tiller").playing = true
 
 func constrain(xy):
 	var Grid = get_node_or_null("/root/Game/Grid")
